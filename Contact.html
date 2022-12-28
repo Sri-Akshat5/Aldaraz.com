@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aldaraz.com</title>
+  <link rel="stylesheet"  type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family-Josefin+Sans: ital, wght@0, 100;0, 300;0,400;0,500;0, 600;0,700;1, 100;1, 200;1, 300;1,400;1, 500;1, 600;1,700&family-Montserrat: wght@700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!--Java Script Start Link-->
+  <script src="script.js"></script>
+  <!--Java Script End Link-->
+
+  <!--Navigation Bar-->
+  <div class="Nav" >
+    <nav>
+      <img src="./IMG/logo-nav.png" class="top-logo" alt="logo-main-page">
+      <div class="nav-list"><ul>
+        <li><a href="./Index.html">Home</a></li>
+        <li><a href="./Services.html">Services</a></li>
+        <li><a href="./Pricing.html">Pricing</a></li>
+        <li><a href="./Contact.html">Contact</a></li>
+      </ul></div>
+      <button type="button" onclick="openForm()" class="get-early-access">Get Early Access →</button>
+    </nav>
+  </div>
+  <!--Contact Body-->
+  <section class="section_top">
+  </section>
+  <div class="contact_all">
+  <div class="contact">
+    <div class="contact_top">
+    <p class="contact_top_subheading"><u> Contact Sales</u></p>
+    <h1 class="contact_top_heading">How can we help you ?</h1>
+    <p class="contact_top_text">Whether you have a question about features, trials,<br>
+       pricing, need a demo, or anything else, our team<br> is available to assist you.</p>
+       <div class="get_start_button_div_contact">
+        <button type="button" onclick="openForm()" class="get_start_button">Request Demo</button>
+        </div>
+    </div>
+    
+    </div>
+    <!--Contact Details-->
+    <div class="contact_details">
+    <div class="contact_detail_div">
+      <p class="contact_detail_icon"><img src="./IMG/call .png" class="contact_detail_icon_image">Telephone:</p>
+      <p class="contact_info">+91 8181865070</p>
+    </div>
+    <hr class="solid_line">
+
+    <div class="contact_detail_div">
+      <p class="contact_detail_icon"><img src="./IMG/email.png" class="contact_detail_icon_image">Email:</p>
+      <pre class="contact_info">      Aldaraz.support@gmail.com</pre>
+    </div>
+    <hr class="solid_line">
+
+    <div class="contact_detail_div">
+      <p class="contact_detail_icon"><img src="./IMG/linkdin .png" class="contact_detail_icon_image">LinkedIn:</p>
+      <pre class="contact_info">  www.linkedin.com/in/Aldaraz</pre>
+        </div>
+        <hr class="solid_line">
+
+    <div class="contact_detail_div">
+      <p class="contact_detail_icon"><img src="./IMG/address .png" class="contact_detail_icon_image">Address:</p>
+      <pre class="contact_info">  Tower-M, Office 108B Noida, <br>  Uttar Pradesh 201305</pre>
+    </div>
+    <hr class="solid_line">
+
+  </div>
+</div>
+  
+  <!--Footer Section-->
+  <footer>
+    <div class="footer">
+      <div class="footer_containor">
+        <div class="footer_containor_top">
+          <img src="./IMG/Footer_logo.png">
+          <span class="footer_logo_next">Software Resource Marketplace</span>
+        </div>
+        <span class="footer_logo_end"><em class="footer_logo_end_num">5,243,793</em> certified & trusted customer base </span>
+      </div>
+      <hr class="hr1">
+      <div class="footer_containor_bottom">
+        <h2 class="footer_support">Services
+        <ul class="footer_support_list">
+          <li class="footer_support_list_item">Web Development</li>
+          <li class="footer_support_list_item">Mobile Development</li>
+          <li class="footer_support_list_item">Data Security</li>
+          <li class="footer_support_list_item">Cloud Services</li>
+          <li class="footer_support_list_item">Digital Marketing</li>
+        </ul>
+        </h2>
+        <h2 class="footer_support">Support
+        <ul class="footer_support_list">
+          <li class="footer_support_list_item">Contact us</li>
+          <li class="footer_support_list_item">Developers Docs</li>
+          <li class="footer_support_list_item">Help Center</li>
+        </ul>
+        </h2>
+        <h2 class="footer_social_media">Follow Us
+          <img src="./IMG/social media.png" width="100px" class="footer_social_media_list_item">
+        </h2>
+            <span class="footer_last_terms">© 2017-2022 All rights reserved <br><p class="footer_last_term_2"> Built with 💛 in India</p>
+            
+            <div class="footer_last_button">
+            <button type="button" onclick="openForm()" class="get_start_button">Request Demo</button>
+            <div class="footer_last">
+            </span>
+            </div>
+        </div>
+        
+        </div>
+          
+    </div>
+    </footer>
+     <!--Pop up form-->
+  <div class="Popup_form">
+    <div class="formPopup" id="popupForm">
+      <form action="./Pricing.html" class="formContainer">
+        <h2 class="req_head">Request Form</h2>
+        <label for="Name">
+          <strong>Name</strong>
+        </label>
+        <input type="text" id="name" placeholder="Full Name" name="name" required>
+        <label for="Email">
+          <strong>Email<strong>
+        </label>
+        <input type="Email" id="email" placeholder="Email" name="email" required>
+        <label for="Mobile">
+          <strong>Mobile Number</strong>
+        </label>
+        <input type="text" id="mobile" placeholder="Mobile Number" name="mobile" required>
+        <label for="Requirement">
+          <strong>Requirement<strong>
+        </label>
+        <input type="text" id="req" placeholder="For example: Web Development" name="req" required>
+        <button type="submit" class="btn">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+  </div>

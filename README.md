@@ -26,6 +26,10 @@ To view or modify this project, you'll need basic knowledge of:
 - **CSS** for styling
 - **JavaScript** for interactive functionality
 
+## Screenshots
+![aldaraz](https://github.com/user-attachments/assets/98a0f0f7-6c47-4d1f-846b-77ce2e108507)
+
+
 ### Clone the Repository
 
 To clone the repository and work on the project locally, use the following command:
